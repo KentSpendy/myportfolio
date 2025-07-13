@@ -1,18 +1,18 @@
 // Mock data for the portfolio
 export const portfolioData = {
   personal: {
-    name: "Alex Chen",
+    name: "Kent Harvey Bongcales",
     title: "Full Stack Developer",
     tagline: "Crafting digital experiences that transcend the ordinary",
-    bio: "I'm a passionate full-stack developer with 5+ years of experience building scalable web applications. I specialize in React, Node.js, and cloud technologies, with a keen eye for user experience and performance optimization.",
-    location: "San Francisco, CA",
-    email: "alex.chen@example.com",
-    phone: "+1 (555) 123-4567",
+    bio: "An undergraduate student with a passion for web development and a knack for problem-solving. I'm excited to bring my skills and enthusiasm to the world of software development.",
+    location: "Malaybalay City, Bukidnon",
+    email: "bongcaleskentharvey@gmail.com",
+    phone: "+63 992 215 8905",
     social: {
-      github: "https://github.com/alexchen",
+      github: "https://github.com/KentSpendy",
       linkedin: "https://linkedin.com/in/alexchen",
-      twitter: "https://twitter.com/alexchen",
-      portfolio: "https://alexchen.dev"
+      twitter: "https://x.com/The_Crawler21",
+      portfolio: "luxury-speculoos-a20643.netlify.app"
     }
   },
   
@@ -194,25 +194,25 @@ export const portfolioData = {
 
   experience: [
     {
-      company: "TechNova Solutions",
-      position: "Senior Full Stack Developer",
-      duration: "2022 - Present",
-      description: "Leading development of enterprise web applications serving 100k+ users. Architected microservices infrastructure reducing response times by 40%.",
-      technologies: ["React", "Node.js", "AWS", "Kubernetes"]
+      company: "College of Information Sciences and Computing",
+      position: "Assistant Technician",
+      duration: "204 - 2025",
+      description: "Worked as a technician in a computer lab, assisting students with computer hardware and software issues.",
+      technologies: ["HTML", "CSS", "Node.js", "React JS", "Python"]
     },
     {
-      company: "InnovateX",
+      company: "Independent Contractor",
       position: "Full Stack Developer",
-      duration: "2020 - 2022",
+      duration: "2023 - Present",
       description: "Developed and maintained multiple client projects. Implemented CI/CD pipelines reducing deployment time by 60%.",
-      technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"]
+      technologies: ["Vue.js", "Python", "PostgreSQL", "React JS", "Django"]
     },
     {
-      company: "StartupFlow",
-      position: "Frontend Developer",
-      duration: "2019 - 2020",
-      description: "Built responsive web applications from design mockups. Collaborated with UX team to improve user engagement by 35%.",
-      technologies: ["React", "TypeScript", "SCSS", "Jest"]
+      company: "TasteView",
+      position: "CEO",
+      duration: "2025 - Present",
+      description: "Led a team of developers and designers to create a cutting-edge e-commerce platform",
+      technologies: ["React", "JavaScript", "Tailwindcss", "Firebase"]
     }
   ]
 };

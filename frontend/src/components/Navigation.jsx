@@ -72,10 +72,10 @@ const Navigation = () => {
               <span className={`transition-colors duration-300 ${
                 isScrolled ? 'text-gray-900' : 'text-white'
               }`}>
-                Alex
+                Kent Harvey
               </span>
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Chen
+                 Bongcales
               </span>
             </div>
             <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-indigo-600 to-purple-600 group-hover:w-full transition-all duration-300"></div>
