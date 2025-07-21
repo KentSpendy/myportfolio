@@ -20,31 +20,31 @@ export const portfolioData = {
     {
       category: "Frontend",
       technologies: [
-        { name: "React", level: 95, icon: "⚛️" },
-        { name: "TypeScript", level: 90, icon: "📘" },
-        { name: "Next.js", level: 88, icon: "▲" },
-        { name: "Vue.js", level: 85, icon: "💚" },
-        { name: "Tailwind CSS", level: 92, icon: "🎨" }
+        { name: "React", level: 75, icon: "⚛️" },
+        { name: "TypeScript", level: 65, icon: "📘" },
+        { name: "Next.js", level: 65, icon: "▲" },
+        { name: "Vue.js", level: 65, icon: "💚" },
+        { name: "Tailwind CSS", level: 68, icon: "🎨" }
       ]
     },
     {
       category: "Backend",
       technologies: [
-        { name: "Node.js", level: 93, icon: "🟢" },
+        { name: "Node.js", level: 65, icon: "🟢" },
         { name: "Python", level: 87, icon: "🐍" },
-        { name: "FastAPI", level: 89, icon: "⚡" },
+        { name: "FastAPI", level: 85, icon: "⚡" },
         { name: "PostgreSQL", level: 85, icon: "🐘" },
-        { name: "MongoDB", level: 88, icon: "🍃" }
+        { name: "MongoDB", level: 85, icon: "🍃" }
       ]
     },
     {
       category: "Cloud & Tools",
       technologies: [
-        { name: "AWS", level: 86, icon: "☁️" },
-        { name: "Docker", level: 90, icon: "🐳" },
-        { name: "Kubernetes", level: 82, icon: "⚙️" },
-        { name: "CI/CD", level: 88, icon: "🔄" },
-        { name: "Git", level: 95, icon: "📋" }
+        { name: "AWS", level: 75, icon: "☁️" },
+        { name: "Docker", level: 80, icon: "🐳" },
+        { name: "Kubernetes", level: 70, icon: "⚙️" },
+        { name: "CI/CD", level: 70, icon: "🔄" },
+        { name: "Git", level: 85, icon: "📋" }
       ]
     }
   ],
@@ -52,21 +52,21 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "Stellar Analytics Dashboard",
-      description: "A real-time analytics dashboard for e-commerce businesses with advanced data visualization and predictive insights.",
-      image: "https://via.placeholder.com/600x400/6366f1/ffffff?text=Stellar+Analytics",
-      technologies: ["React", "D3.js", "Node.js", "PostgreSQL", "AWS"],
-      liveUrl: "https://stellar-analytics.demo",
-      githubUrl: "https://github.com/alexchen/stellar-analytics",
+      title: "BukCare",
+      description: "Automated hospital scheduling system with real-time updates and patient management.",
+      image: "/projects/bukcare-logo.png",
+      technologies: ["React JS", "Django", "JavaScript", "Python", "PostgreSQL", "Cloudinary", "Tailwind CSS", "Brevo", "Redis"],
+      liveUrl: "bookbridge-version1-desktop.web.app",
+      githubUrl: "https://github.com/KentSpendy/BookBridge_e-commerce",
       featured: true,
       category: "Web Application"
     },
     {
       id: 2,
-      title: "Cosmic Chat",
+      title: "BookBridge",
       description: "A modern real-time chat application with end-to-end encryption and AI-powered message suggestions.",
-      image: "https://via.placeholder.com/600x400/8b5cf6/ffffff?text=Cosmic+Chat",
-      technologies: ["Next.js", "Socket.io", "Redis", "MongoDB", "OpenAI"],
+      image: "/projects/bookbridge_logo.png",
+      technologies: ["Flutter", "Dart", "Firebase", "Cloudinary", "Firebase Hosting"],
       liveUrl: "https://cosmic-chat.demo",
       githubUrl: "https://github.com/alexchen/cosmic-chat",
       featured: true,
@@ -74,9 +74,9 @@ export const portfolioData = {
     },
     {
       id: 3,
-      title: "Galaxy E-commerce",
+      title: "BookBridge",
       description: "A headless e-commerce platform with microservices architecture and advanced payment processing.",
-      image: "https://via.placeholder.com/600x400/ec4899/ffffff?text=Galaxy+E-commerce",
+      image: "/projects/bookbridge_logo.png2",
       technologies: ["Vue.js", "FastAPI", "Docker", "Stripe", "Kubernetes"],
       liveUrl: "https://galaxy-ecommerce.demo",
       githubUrl: "https://github.com/alexchen/galaxy-ecommerce",

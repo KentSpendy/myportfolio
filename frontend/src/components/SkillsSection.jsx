@@ -106,15 +106,15 @@ const SkillsSection = () => {
               <div className="space-y-3 text-sm text-gray-600">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  <span>AWS Certified Solutions Architect</span>
+                  <span>AWS Certified Solutions Architect Puhon hehe</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-indigo-500 rounded-full"></span>
-                  <span>Google Cloud Professional Developer</span>
+                  <span>Google Cloud Professional Developer Puhon hehe</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  <span>React Developer Expert Certificate</span>
+                  <span>React Developer Expert Certificate Puhon hehe</span>
                 </div>
               </div>
             </div>

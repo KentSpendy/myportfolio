@@ -5,7 +5,6 @@ const HeroSection = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const heroRef = useRef(null);
 
-  // Mock data for demonstration
   const portfolioData = {
     personal: {
       name: "Kent Harvey Bongcales",
@@ -142,7 +141,7 @@ const HeroSection = () => {
 
         {/* Enhanced scroll indicator */}
         <div 
-          className={`absolute bottom--30 left-1/2 transform -translate-x-1/2 cursor-pointer transition-all duration-700 delay-1100 hover:scale-110 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+          className={`absolute bottom--80 left-1/2 transform -translate-x-1/2 cursor-pointer transition-all duration-700 delay-1100 hover:scale-110 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
           onClick={handleScroll}
         >
           <div className="flex flex-col items-center text-gray-500 hover:text-purple-600 transition-colors duration-300">
